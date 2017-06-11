@@ -18,8 +18,8 @@ body {
     -moz-background-size: contain; 
     -o-background-size: contain;
     background-size: contain;
-     background-size: 100% 100%;
-    background-repeat: no-repeat
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 .textbackground span,li span,a span, p span {
     background-color: white;
