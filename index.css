@@ -2,6 +2,8 @@ h1 {
     color: red;
     font-weight: bold;
     font-style: italic;
+    font-family: Dancing Script;
+    font-size: 80px;
 }
 
 li {
@@ -14,11 +16,14 @@ color: red;
 }
 
 body {
-     background-image: url("https://media.giphy.com/media/acN0bSk23YJlC/giphy.gif");
+     background-image: url("https://media.giphy.com/media/xUPGcMqlkNigA7EloI/giphy.gif");
     -webkit-background-size: center;
     -moz-background-size: cover; 
     -o-background-size: center;
     background-size: 100% 100%;
     background-repeat: no-repeat
+}
+.textbackground span,h1 span,li span,a span {
+    background-color: white;
 }
     

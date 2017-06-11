@@ -2,6 +2,8 @@ h1 {
     color: red;
     font-weight: bold;
     font-style: italic;
+    font-family: Dancing Script;
+    font-size: 80px;
 }
 .nopaddingleft{
     padding-left: 0px;
@@ -19,6 +21,6 @@ body {
      background-size: 100% 100%;
     background-repeat: no-repeat
 }
-.textbackground span {
+.textbackground span,li span,a span, p span {
     background-color: white;
 }

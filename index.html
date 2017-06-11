@@ -3,31 +3,36 @@
         <title>The Ultimate List</title>
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script" />
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+
     </head>
     <body>
       
-        <h1>Morning Routine</h1>
+        <h1 class=textbackground><span>Morning Routine </span></h1>
         
         <ul style="list-style-type:none">
 
-             <li><input type="checkbox" name="Routine">
+             <li> <span><input type="checkbox" name="Routine">
                  <a href="show.html"> Wake up </a>
                  
-             </li>
+             </span></li>
 
 
-             <li> <input type="checkbox" name="Routine"> Work out </></li>
-             <li> <input type="checkbox" name="Routine"> Brush teeth </></li>
-             <li> <input type="checkbox" name="Routine"> Take shower </></li>
-             <li> <input type="checkbox" name="Routine"> Fix Breakfast </></li>
-             <li> <input type="checkbox" name="Routine"> Track Bus </></li>
-             <li> <input type="checkbox" name="Routine"> Leave </></li>
-            <li>  
+             <li> <span><input type="checkbox" name="Routine"> Work out </></span></li>
+             <li> <span><input type="checkbox" name="Routine"> Brush teeth </></span></li>
+             <li> <span><input type="checkbox" name="Routine"> Take shower </></span></li>
+             <li> <span><input type="checkbox" name="Routine"> Fix Breakfast </></span></li>
+             <li> <span><input type="checkbox" name="Routine"> Track Bus </></span></li>
+             <li> <span><input type="checkbox" name="Routine"> Leave </></span></li>
+            <li>  <div id="new-todo-block">
                     
-                    <input type="text" placeholder="New To Do"> 
+                    <input type="text" placeholder="New To Do" id="new-todo-description"> 
                 
-                    <input type="submit" name="Submit" value="Done">
+                    <input type="submit" name="Submit" value="Done" id="add-new-todo-button">
+                    </div>
             </li>
+            
         </ul>
     </body>
 </html>
